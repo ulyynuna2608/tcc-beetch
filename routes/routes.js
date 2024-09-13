@@ -123,11 +123,11 @@ router.delete('/galeria', GaleriaController.apagarGaleria);
 
 const PropriedadeController = require('../controllers/propriedade'); 
 
-router.get('/galeria', PropriedadeController.listarPropriedade); 
-router.get('/galeria/:id', PropriedadeController.listarPropriedadePorId);
-router.post('/galeria', PropriedadeController.cadastrarPropriedade); 
-router.patch('/galeria', PropriedadeController.editarPropriedade); 
-router.delete('/galeria', PropriedadeController.apagarPropriedade); 
+router.get('/propriedade', PropriedadeController.listarPropriedade); 
+router.get('/propriedade/:id', PropriedadeController.listarPropriedadePorId);
+router.post('/propriedade', PropriedadeController.cadastrarPropriedade); 
+router.patch('/propriedade', PropriedadeController.editarPropriedade); 
+router.delete('/propriedade', PropriedadeController.apagarPropriedade); 
 
 
 module.exports = router;

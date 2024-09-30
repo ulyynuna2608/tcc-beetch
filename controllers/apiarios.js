@@ -2,7 +2,9 @@ const db = require('../database/connection');
 
 module.exports = {
     async listarApiarios(request, response) {
-        try {            
+        try { 
+            
+    
             return response.status(200).json({
                 sucesso: true, 
                 mensagem: 'Lista de Apiarios.', 
